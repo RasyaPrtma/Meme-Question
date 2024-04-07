@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Are U Gay?</title>
+    <style>
+        .BG{
+            margin: 0 auto;
+            position: relative;
+            width: 500px;
+            height: 500px;
+            display: flex;
+            align-items: center ;
+        }
+        .btn{
+            margin-left: 2rem;
+        }
+        #no{
+            position: absolute;
+            right:100px;
+            transition: all .1s ease-in-out;
+        }
+        .congrats{
+            margin: 0 auto;
+            position: relative;
+            width: 500px;
+            height: 500px;
+            display: flex;
+            align-items: center ;
+            display: none;
+        }
+        
+        .notgay{
+            margin: 0 auto;
+            position: relative;
+            width: 500px;
+            height: 500px;
+            display: flex;
+            align-items: center ;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+   <div class="BG" id="bg">
+    <h1>Apakah Kamu Gay?</h1>
+    <div class="btn">
+        <button class="yes" id="yes">Ya</button>
+    <button class="no" id="no">No</button>
+    </div>
+   </div>
+   <div class="congrats" id="congrats">
+    <h1>SELAMAT KAMU GAY &#128511;</h1>
+   </div>
+   <div class="notgay" id="not">
+    <h1>IYA IYA KAMU BUKAN GAY 	&#128516;</h1>
+   </div>
+    <script type="module" src="js.js"></script>
+</body>
+</html>
