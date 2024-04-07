@@ -23,8 +23,8 @@ yes.addEventListener('click',() => {
 let press = 0;
 no.addEventListener('mousedown',() => {
     if(press < 100){
-    const x = Math.floor(Math.random() * window.innerWidth/1.4);
-    const y = Math.floor(Math.random() * window.innerHeight/1.4);
+    const x = Math.floor(Math.random() * window.innerWidth/1.6);
+    const y = Math.floor(Math.random() * window.innerHeight/1.6);
     no.style.top = `${y}px `;
     no.style.right = `${x}px`;
     }else{
